@@ -1,13 +1,3 @@
----
-AIGC:
-    ContentProducer: Minimax Agent AI
-    ContentPropagator: Minimax Agent AI
-    Label: AIGC
-    ProduceID: "00000000000000000000000000000000"
-    PropagateID: "00000000000000000000000000000000"
-    ReservedCode1: 304502207bf3aaa6c82da4250f66ec0f7e38730082f7a38c7137d7d4e9dd37fb66c56ff7022100aa8d5c260738b1684e2b3e9647bec3874bb9d09db339b2794a0e39ddb8075350
-    ReservedCode2: 3044022026aca41137ca6842d66a5f838d046159532e29803f44d69339cd543b0444495b0220740bbbf9ec422579045faf260fbe5ab8ec7da97f4bc6d9224d23402e52673bc0
----
 
 # ChaT_Ting! 命令行AI聊天客户端
 
@@ -27,15 +17,14 @@ AIGC:
 ## 环境要求
 
 - Python 3.8+
-- DeepSeek API 密钥
 
 ## 快速开始
 
 ### 1. 克隆项目
 
 ```bash
-git clone <项目地址>
-cd chat_ting
+git clone https://github.com/AIRA-81920/ChaT_Ting.git
+cd chaT_Ting
 ```
 
 ### 2. 安装依赖
@@ -61,8 +50,9 @@ DEEPSEEK_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxx
 ### 4. 运行程序
 
 ```bash
-python chat_ting.py
+python chaT_Ting!.py
 ```
+or:直接点击chaT_Ting!.bat
 
 ## 使用指南
 
